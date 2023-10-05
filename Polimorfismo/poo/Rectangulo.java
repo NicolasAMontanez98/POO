@@ -13,4 +13,12 @@ public class Rectangulo extends Figura{
     public double calcularArea() {
         return base * altura;
     }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public void setBase(double base) {
+        this.base = base;
+    }
 }
